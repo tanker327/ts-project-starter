@@ -34,7 +34,7 @@ A minimal starter project built with [TypeScript](https://www.typescriptlang.org
 ### 1. Clone the Repository
 
 ```bash
-git clone https://your-repo-url.git
+git clone https://github.com/tanker327/ts-project-starter.git
 cd ts-project-starter
 ```
 
@@ -117,7 +117,7 @@ docker build -t ts-project-starter:latest .
 Run the container:
 
 ```bash
-docker run -p 3000:3000 ts-project-starter:latest
+docker run  ts-project-starter:latest
 ```
 
 ## Logger Configuration
