@@ -1,0 +1,1 @@
+docker build -t ts-project-starter:latest .
