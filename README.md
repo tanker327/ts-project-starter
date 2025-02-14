@@ -13,7 +13,7 @@ A minimal starter project built with [TypeScript](https://www.typescriptlang.org
 
 ## Project Structure
 
-.
+```
 ├── src
 │   ├── index.ts         # Main application entry point
 │   ├── logger.ts        # Logger configuration (Winston + daily rotate)
@@ -24,6 +24,7 @@ A minimal starter project built with [TypeScript](https://www.typescriptlang.org
 ├── package.json         # Project dependencies and scripts
 ├── tsconfig.json        # TypeScript configuration
 └── Dockerfile           # Multi-stage Docker build configuration
+```
 
 ## Installation
 
