@@ -100,6 +100,18 @@ Fix linting errors automatically:
 npm run lint:fix
 ```
 
+### Code Formatting
+
+We use [Prettier](https://prettier.io) for automatic code formatting. A configuration file (.prettierrc) is provided in the project.
+
+To format your code automatically, run:
+
+```bash
+npm run format
+```
+
+This will format all files according to our Prettier rules.
+
 ## Docker
 
 This project includes a multi-stage Dockerfile that first runs tests and builds the application, then creates a minimal production image.
