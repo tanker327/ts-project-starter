@@ -14,16 +14,19 @@ A minimal starter project built with [TypeScript](https://www.typescriptlang.org
 ## Project Structure
 
 ```
+.
 ├── src
 │   ├── index.ts         # Main application entry point
 │   ├── logger.ts        # Logger configuration (Winston + daily rotate)
 │   └── setting.ts       # Environment variable validation using Zod
 ├── tests
-│   └── setting.test.ts  # Test cases for settings module
-├── .env                 # Environment variables (see sample below)
+│   └── setting.test.ts  # Test cases for the settings module
+├── .env                 # Environment variables file
+├── .gitignore           # Git ignore file for node_modules, dist, logs, etc.
 ├── package.json         # Project dependencies and scripts
-├── tsconfig.json        # TypeScript configuration
-└── Dockerfile           # Multi-stage Docker build configuration
+├── tsconfig.json        # TypeScript configuration file
+├── Dockerfile           # Multi-stage Docker build configuration
+└── README.md            # Project documentation
 ```
 
 ## Installation
