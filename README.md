@@ -123,6 +123,7 @@ docker run  ts-project-starter:latest
 ## Logger Configuration
 
 The logger is defined in `src/logger.ts` and uses:
+
 - **Console Transport:** For development logs.
 - **Daily Rotate File Transport:** For production logs. Logs are rotated daily (or based on size, if desired) and stored under `logs/app-%DATE%.log`.
 
@@ -131,6 +132,7 @@ This setup allows you to have both viewable console logs during development and 
 ## Environment Variables
 
 The application validates and uses the following environment variables:
+
 - **NODE_ENV:** The current environment (`dev`, `uat`, or `prod`). Default is `dev`.
 - **PORT:** The port on which the application listens. Default is `3000`.
 - **DEBUG_MODE:** Enables additional debugging (expects `"true"` or `"false"`).
@@ -140,4 +142,3 @@ The application validates and uses the following environment variables:
 ## License
 
 MIT License
-
